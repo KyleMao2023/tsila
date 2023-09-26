@@ -1,40 +1,44 @@
 cat >/TSILA/data/config.json <<EOF
 {
   "force": false,
-  "address": "0.0.0.0",
-  "port": 5244,
   "site_url": "",
   "cdn": "",
-  "jwt_secret": "wRAWtEWw5b7Uyo4G",
+  "jwt_secret": "random generated",
   "token_expires_in": 48,
   "database": {
-    "type": "$DATABASE",
-    "user": "$SQLUSER",
-    "password": "$SQLPASSWORD",
-    "host": "$SQLHOST",
-    "port": $SQLPORT,
-    "name": "$SQLNAME",
-    "db_file": "data/data.db",
-    "table_prefix": "x_",
-    "ssl_mode": "$SSL"
+    "type": "sqlite3",
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": "",
+    "name": "",
+    "db_file": "data\\data.db",
+    "table_prefix": "alist_",
+    "ssl_mode": ""
   },
   "scheme": {
-    "https": false,
+    "address": "0.0.0.0",
+    "http_port": 5244,
+    "https_port": -1,
+    "force_https": false,
     "cert_file": "",
-    "key_file": ""
+    "key_file": "",
+    "unix_file": "",
+    "unix_file_perm": ""
   },
-  "temp_dir": "data/temp",
-  "bleve_dir": "data/bleve",
+  "temp_dir": "data\\temp",
+  "bleve_dir": "data\\bleve",
   "log": {
     "enable": true,
-    "name": "data/log/log.log",
+    "name": "data\\log\\log.log",
     "max_size": 10,
     "max_backups": 5,
     "max_age": 28,
     "compress": false
   },
+  "delayed_start": 0,
   "max_connections": 0,
-  "tls_insecure_skip_verify": true
+  "tls_insecure_skip_verify": false
 }
 EOF
 
