@@ -2,7 +2,7 @@ FROM debian:stable-slim
 
 WORKDIR /TSILA
 
-COPY tsila /TSILA
+COPY tsila.tgz /TSILA
 
 ADD tsila.sh /TSILA
 
