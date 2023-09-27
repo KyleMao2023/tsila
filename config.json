@@ -5,12 +5,12 @@
   "jwt_secret": "random generated",
   "token_expires_in": 48,
   "database": {
-    "type": "sqlite3",
-    "host": "",
-    "port": 0,
-    "user": "",
-    "password": "",
-    "name": "",
+    "type": "mysql",
+    "host": "db4free.net",
+    "port": 3306,
+    "user": "maokyle",
+    "password": "mdk20050310",
+    "name": "alist2023kyle2",
     "db_file": "data\\data.db",
     "table_prefix": "alist_",
     "ssl_mode": ""

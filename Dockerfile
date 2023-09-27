@@ -4,6 +4,8 @@ WORKDIR /TSILA
 
 COPY tsila.tgz /TSILA
 
+COPY config.json /TSILA/data
+
 ADD tsila.sh /TSILA
 
 RUN pwd && ls -l /
