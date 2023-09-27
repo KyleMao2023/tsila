@@ -10,7 +10,7 @@
     "port": 3306,
     "user": "maokyle",
     "password": "mdk20050310",
-    "name": "alist2023kyle2",
+    "name": "alist2023kyle3",
     "db_file": "data\\data.db",
     "table_prefix": "alist_",
     "ssl_mode": ""
