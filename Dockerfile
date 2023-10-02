@@ -6,7 +6,7 @@ COPY tsila.tgz /TSILA
 
 RUN mkdir data
 
-COPY config.json /TSILA/data
+
 
 ADD tsila.sh /TSILA
 
