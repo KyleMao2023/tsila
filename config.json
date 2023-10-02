@@ -8,9 +8,9 @@
     "type": "mysql",
     "host": "db4free.net",
     "port": 3306,
-    "user": "maokyle",
+    "user": "kylemao",
     "password": "mdk20050310",
-    "name": "alist2023kyle2",
+    "name": "alist2023kyle3",
     "db_file": "data\\data.db",
     "table_prefix": "alist_",
     "ssl_mode": ""
@@ -37,5 +37,5 @@
   },
   "delayed_start": 0,
   "max_connections": 0,
-  "tls_insecure_skip_verify": false
+  "tls_insecure_skip_verify": true
 }
