@@ -38,7 +38,7 @@
 #   },
 #   "delayed_start": 0,
 #   "max_connections": 0,
-#   "tls_insecure_skip_verify": true
+#   "tls_insecure_skip_verify": false
 # }
 # EOF
 
